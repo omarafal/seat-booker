@@ -38,3 +38,11 @@ body{
 /* .occupied{
     background-color: white;
 } */
+
+.screen{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 6px 4px 2px white;
+}
