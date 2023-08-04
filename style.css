@@ -1,6 +1,11 @@
+body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .seat{
     background: none;
-    background-color: blue;
+    background-color: rgb(120, 197, 216);
     height: 15px;
     width: 20px;
     border: none;
@@ -10,5 +15,26 @@
 }
 
 .selected{
-    background-color: red;
+    background-color: rgb(89, 72, 163);
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: orange; */
+    height: 800px;
+    align-items: center;
+    /* width: 50%;
+    margin: 0 auto; */
+}
+
+.seats-container{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+/* .occupied{
+    background-color: white;
+} */
