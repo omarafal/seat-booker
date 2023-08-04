@@ -35,9 +35,11 @@ body{
     width: 250px;
 }
 
-/* .occupied{
-    background-color: white;
-} */
+.occupied{
+    background-color: grey;
+    cursor:default;
+
+}
 
 .screen{
     width: 200px;
